@@ -1,1 +1,54 @@
-css
+h1, h2, h3 {
+    font-family: 'Angie Sans Std', sans-serif;
+    font-weight: 700;
+}
+p {
+    font-family: 'Angie Sans Std', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.btn {
+    background-color: transparent;
+    border: 3px solid navy;
+    border-radius: 45px;
+    color: navy;
+}
+.btn:hover {
+    background-color: navy;
+    color: white;
+    border: 0;
+}
+.customNav {
+    position: fixed;
+    width: 100%;
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  .jumbotron {
+    background-size: cover;
+    background: transparent;
+    height: 400px;
+    height: calc(100vh-25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: navy;
+    text-align: center;
+  }
+  .container {
+    margin: 20 auto;
+    color: navy;
+  }

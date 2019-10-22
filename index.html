@@ -5,15 +5,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
     <title>Bootstrap Portfolio</title>
+    <!-- Bootstrap Link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- CSS Link -->
     <link href="CSS/style.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
         <a class="navbar-brand" href="#">
             <img src="images/logo3.png" width="100" height="40" alt="Home">
         </a>
@@ -24,23 +27,90 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">My Work<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">My Work</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="#">Contact Me</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
         </div>
     </nav>
 
+    <!-- Hero Image/Introduction -->
+    <div class="jumbotron">
+        <div class="jumboCopy">
+            <h1 class="display-4">UI/UX Designer</h1>
+            <p class="lead">Scroll down to see my work.</p>
+            <a class="btn btn-primary btn-lg" href="mailto:churchill.marg@gmail.com" role="button">Contact Me</a>
+        </div>
+    </div>
 
-
-
-
+    <!-- Case Studies Columns -->
+    <div class="card-columns container">
+        <div class="card mb-3">
+            <img src="images/hi-fi-pages.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Nonprofit Redesign: A Case Study</h5>
+                <p class="card-text">My team was tasked with redesigning a nonprofit website to increase donations and
+                    support for the organization's cause.</p>
+                <p class="card-text"><small class="text-muted">September 2019</small></p>
+            </div>
+        </div>
+        <div class="card p-3">
+            <blockquote class="blockquote mb-0 card-body">
+                <p>Beauty and brains, pleasure and usability. These should go hand in hand.</p>
+                <footer class="blockquote-footer">
+                    <small class="text-muted">
+                        Don Norman <cite title="Source Title">Source Title</cite>
+                    </small>
+                </footer>
+            </blockquote>
+        </div>
+        <div class="card mb-3">
+            <img src="images/weather-app.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Daily UI</h5>
+                <p class="card-text">A collection of daily UI projects created over the past year.</p>
+                <p class="card-text"><small class="text-muted">2019</small></p>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <img src="images/weather-app.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Daily UI</h5>
+                <p class="card-text">A collection of daily UI projects created over the past year.</p>
+                <p class="card-text"><small class="text-muted">2019</small></p>
+            </div>
+        </div>
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+        </div>
+        <div class="card p-3 text-right">
+            <blockquote class="blockquote mb-0">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer class="blockquote-footer">
+                    <small class="text-muted">
+                        Someone famous in <cite title="Source Title">Source Title</cite>
+                    </small>
+                </footer>
+            </blockquote>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is another card with title and supporting text below. This card has some
+                    additional content to make it slightly taller overall.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
 </body>
 
 
