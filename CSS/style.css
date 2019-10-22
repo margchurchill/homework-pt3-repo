@@ -1,4 +1,4 @@
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Angie Sans Std', sans-serif;
     font-weight: 700;
 }
@@ -7,17 +7,43 @@ p {
     font-size: 16px;
     font-weight: 300;
 }
+body {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
 .btn {
     background-color: transparent;
-    border: 3px solid navy;
+    border: 2px solid white;
     border-radius: 45px;
-    color: navy;
+    color: white;
+    font-family: 'Angie Sans Std', sans-serif;
+}
+.btn-primary {
+  box-shadow: 0px 5px 10px rgba(80, 92, 134, 0.1);
+  background-color: rgba(80, 92, 134, 0.1)
 }
 .btn:hover {
-    background-color: navy;
+    background-color: #2E354F;
     color: white;
     border: 0;
+    box-shadow: 0px 5px 10px rgba(80, 92, 134, 0.2);
+
 }
+.btn-social-icon {
+  background-color: rgba(80, 92, 134, 0.1);
+  color: #2E354F;
+  border: 0;
+  margin: 15px 5px;
+  cursor: pointer;
+}
+.btn-social-icon:hover .fa {
+  background-color: #2E354F;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
 .customNav {
     position: fixed;
     width: 100%;
@@ -31,9 +57,11 @@ p {
   }
   .nav-item {
     margin: 0px 15px;
+    color: #2E354F !important;
   }
   .jumbotron {
     background-size: 1000px;
+    background-repeat: no-repeat;
     margin: 0 auto;
     background: transparent;
     height: 400px;
@@ -46,10 +74,45 @@ p {
     width: 70%;
     min-width: 500px;
     max-width: 700px;
-    color: navy;
+    color: #2E354F;
     text-align: center;
   }
   .container {
     margin: 20 auto;
-    color: navy;
+    color: #2E354F;
   }
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255,255,255,0.5);
+  color: #2E354F;
+  display: grid;
+  grid-template-areas:
+    "aboutMe empty contactInfo";
+  padding-top: 10px;
+}
+.aboutMe {
+  grid-area: aboutMe;
+  margin: auto;
+  text-align: left;
+}
+.contactInfo {
+  grid-area: contactInfo;
+  margin: auto;
+  text-align: center;
+}
+.contactInfo a {
+  margin-top: 2px;
+}
+.empty {
+  grid-area: empty;
+}
+@media only screen and (max-width: 800px) {
+.footer {
+  display: grid;
+  grid-template-areas:
+  "aboutMe"
+  "contactInfo";
+}
+}
