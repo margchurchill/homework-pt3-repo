@@ -114,5 +114,7 @@ body {
   grid-template-areas:
   "aboutMe"
   "contactInfo";
+  text-align: center;
+  margin: 0 auto;
 }
 }
