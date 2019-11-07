@@ -51,10 +51,14 @@ body {
     background-size: cover;
     z-index: 10;
     font-family: 'Angie Sans Std', sans-serif !important;
+    color: #2E354F !important;
   }
   .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
+    color: #2E354F !important;
+    font-family: 'Angie Sans Std', sans-serif !important;
+
   }
   .nav-item {
     margin: 0px 15px;
