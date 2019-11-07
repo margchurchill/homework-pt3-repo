@@ -1,12 +1,11 @@
 .hero {
     display: grid;
-    grid-template-areas:
-        "heroLeft heroRight";
     height: 100%;
+    grid-template-areas:
+    "heroLeft heroRight";
 }
 .heroLeft {
     grid-area: heroLeft;
-    max-width: 400px;
     background-image: url("../images/margie.JPG");
 }
 .heroRight {

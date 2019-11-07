@@ -1,3 +1,4 @@
+/* Page Style */
 h1, h2, h3, h4 {
     font-family: 'Angie Sans Std', sans-serif;
     font-weight: 700;
@@ -12,6 +13,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+/* Button Styles */
 .btn {
     background-color: transparent;
     border: 2px solid white;
@@ -43,7 +45,7 @@ body {
   border: 0;
   cursor: pointer;
 }
-
+/* Header Menu */
 .customNav {
     position: fixed;
     width: 100%;
@@ -56,14 +58,16 @@ body {
   .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
-    color: #2E354F !important;
-    font-family: 'Angie Sans Std', sans-serif !important;
-
   }
   .nav-item {
     margin: 0px 15px;
     color: #2E354F !important;
   }
+  .nav-link {
+    color: #2E354F !important;
+    font-family: 'Angie Sans Std', sans-serif !important;
+  }
+  /* Hero */
   .jumbotron {
     background-size: 1000px;
     background-repeat: no-repeat;
@@ -86,16 +90,17 @@ body {
     margin: 20 auto;
     color: #2E354F;
   }
-.footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgba(255,255,255,0.5);
-  color: #2E354F;
-  display: grid;
-  grid-template-areas:
+/* Footer */
+  .footer {
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: rgba(255,255,255,0.5);
+     color: #2E354F;
+     display: grid;
+     grid-template-areas:
     "aboutMe empty contactInfo";
-  padding-top: 10px;
+    padding-top: 10px;
 }
 .aboutMe {
   grid-area: aboutMe;
